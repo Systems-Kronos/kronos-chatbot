@@ -1,8 +1,11 @@
 from pymongo import MongoClient
 import json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Conecta com o Mongo
-connection = MongoClient("mongodb://localhost:27017/")
+connection = MongoClient(os.getenv("MONGO_CONNECTION_STRING"))
 database = connection["chatbot_kronos"]
 docs_collection = database["docs"]
 

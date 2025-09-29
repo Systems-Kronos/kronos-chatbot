@@ -3,6 +3,9 @@ from langchain_mongodb import MongoDBChatMessageHistory
 from agents.guardrail_agent import run_guardrail_agent
 from agents.judge_agent import run_judge_agent
 from agents.rag_agent import run_rag_agent
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def run_pipeline(query, session_id):
     if session_id is None:
@@ -11,7 +14,7 @@ def run_pipeline(query, session_id):
     # Inicializa o histórico do MongoDB para essa sessão
     chat_message_history = MongoDBChatMessageHistory(
         session_id=session_id,
-        connection_string="mongodb://localhost:27017/",
+        connection_string=os.getenv("MONGO_CONNECTION_STRING"),
         database_name="chatbot_kronos",
         collection_name="conversations",
     )
