@@ -17,7 +17,7 @@ class JudgeOutput(BaseModel):
         description='0 se a entrada for válida, 1 se for ofensiva'
     )
     message: Union[str, None] = Field(
-        description='Mensagem educada para fugir do assunto caso flag=1, ou None se flag=0'
+        description='Resposta ao usuário reestruturada corretamente caso flag=1, ou None se flag=0'
     )
 
 # Conecta com o Gemini para geração de respostas
