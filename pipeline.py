@@ -7,10 +7,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-def run_pipeline(query, session_id):
-    if session_id is None:
-        session_id = str(uuid.uuid4())
-    
+def run_pipeline(query, session_id):    
     # Inicializa o histórico do MongoDB para essa sessão
     chat_message_history = MongoDBChatMessageHistory(
         session_id=session_id,

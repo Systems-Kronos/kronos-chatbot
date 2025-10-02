@@ -1,3 +1,4 @@
+import uuid
 from fastapi import FastAPI
 import uvicorn
 from pipeline import run_pipeline
@@ -7,6 +8,11 @@ app = FastAPI()
 @app.get("/")
 def root():
     return {"message": "API do Chatbot Kronos está online!"}
+
+@app.get("/new_session")
+def new_session():
+    session_id = str(uuid.uuid4())
+    return {"session_id": session_id}
 
 @app.get("/chat")
 def chat(query: str | None = None, session_id: str | None = None):
