@@ -24,7 +24,8 @@ class GuardrailOutput(BaseModel):
 # Conecta com o Gemini para geração de respostas
 model = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key=os.getenv("GEMINI_API_KEY"),
+    temperature=0,
+    google_api_key=os.getenv("GEMINI_API_KEY")
 ).with_structured_output(GuardrailOutput)
 
 # Lê o template do prompt

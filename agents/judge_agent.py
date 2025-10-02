@@ -22,7 +22,8 @@ class JudgeOutput(BaseModel):
 
 # Conecta com o Gemini para geração de respostas
 model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-2.0-flash",
+    temperature=0,
     google_api_key=os.getenv("GEMINI_API_KEY")
 ).with_structured_output(JudgeOutput)
 

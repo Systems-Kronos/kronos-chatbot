@@ -13,8 +13,8 @@ from services.rag_service import retrieve_similar_docs
 # Conecta com o Gemini para geração de respostas
 model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key=os.getenv("GEMINI_API_KEY"),
-    temperature=0.3
+    temperature=0.3,
+    google_api_key=os.getenv("GEMINI_API_KEY")
 )
 
 # Lê o template do prompt
