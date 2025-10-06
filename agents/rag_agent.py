@@ -18,12 +18,12 @@ model = ChatGoogleGenerativeAI(
 )
 
 # Lê o template do prompt
-with open("prompts/rag/system_prompt.txt", "r", encoding="utf-8") as x:
+with open("agents/prompts/rag/system_prompt.txt", "r", encoding="utf-8") as x:
     system_text = x.read()
 system_prompt = ("system", system_text)
 
 # Lê exemplos few-shot
-with open("prompts/rag/fewshots.json", "r", encoding="utf-8") as x:
+with open("agents/prompts/rag/fewshots.json", "r", encoding="utf-8") as x:
     shots = json.load(x)
 
 example_prompt = ChatPromptTemplate.from_messages([

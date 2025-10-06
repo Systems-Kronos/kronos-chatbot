@@ -29,12 +29,12 @@ model = ChatGoogleGenerativeAI(
 ).with_structured_output(GuardrailOutput)
 
 # Lê o template do prompt
-with open("prompts/guardrail/system_prompt.txt", "r", encoding="utf-8") as x:
+with open("agents/prompts/guardrail/system_prompt.txt", "r", encoding="utf-8") as x:
     system_text = x.read()
 system_prompt = ("system", system_text)
 
 # Lê exemplos few-shot
-with open("prompts/guardrail/fewshots.json", "r", encoding="utf-8") as x:
+with open("agents/prompts/guardrail/fewshots.json", "r", encoding="utf-8") as x:
     shots = json.load(x)
 
 example_prompt = ChatPromptTemplate.from_messages([

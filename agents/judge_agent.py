@@ -28,12 +28,12 @@ model = ChatGoogleGenerativeAI(
 ).with_structured_output(JudgeOutput)
 
 # Lê o template do prompt
-with open("prompts/judge/system_prompt.txt", "r", encoding="utf-8") as x:
+with open("agents/prompts/judge/system_prompt.txt", "r", encoding="utf-8") as x:
     system_text = x.read()
 system_prompt = ("system", system_text)
 
 # Lê exemplos few-shot
-with open("prompts/judge/fewshots.json", "r", encoding="utf-8") as x:
+with open("agents/prompts/judge/fewshots.json", "r", encoding="utf-8") as x:
     shots = json.load(x)
 
 example_prompt = ChatPromptTemplate.from_messages([
