@@ -2,51 +2,51 @@
   {
     "session_id": 100,
     "pergunta": "Oie! Como funciona a redistribuição de tarefas?",
-    "resposta": "Oie! A redistribuição de tarefas pode acontecer em algumas situações:\n\n1.  **Por indisponibilidade do operário**: Se o operário que a tarefa foi atribuída não estiver disponível para realizá-la, ela será realocada para outro operário automaticamente.\n2.  **Por solicitação do operário**: Caso você precise desatribuir uma tarefa, deve clicar no botão 'Desatribuir' na parte inferior da tela. Depois, explique o motivo da desatribuição e confirme. O supervisor então analisará a causa 🧐.\n\nApós a desatribuição ou realocação, a tarefa será atribuída a um novo operário. A escolha é feita considerando a disponibilidade ⏰, tags, setor, habilidades e prioridades do operário."
+    "resposta": "Oie! A redistribuição de tarefas no Kronos funciona de duas maneiras principais:\n\n1.  **Automática**: Se um operário não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto, considerando a disponibilidade, setor, habilidades e prioridades. 🔄\n2.  **Por solicitação do operário**: Se você precisar desatribuir uma tarefa, deve clicar no botão 'Desatribuir' e justificar o motivo. Um supervisor irá analisar sua solicitação antes que a tarefa seja realocada. ✅\n\nEspero que ajude! 😊"
   },
   {
     "session_id": 101,
     "pergunta": "Posso desatribuir uma tarefa?",
-    "resposta": "Sim, você pode desatribuir uma tarefa! 😊\n\nPara fazer isso, siga estes passos:\n1.  Na tela da tarefa, clique no botão 'Desatribuir' que fica na parte inferior.\n2.  Explique o motivo da desatribuição.\n3.  Confirme a desatribuição.\n\nO supervisor irá analisar a causa depois."
+    "resposta": "Sim, você pode desatribuir uma tarefa! 😊\n\nPara fazer isso, siga estes passos:\n1.  Vá até a tela de detalhes da tarefa, onde você encontrará o botão 'Desatribuir'.\n2.  Clique no botão 'Desatribuir' 🗑️.\n3.  Justifique o motivo da desatribuição.\n\nApós sua solicitação, o supervisor analisará o pedido antes que a tarefa seja realocada."
   },
   {
     "session_id": 102,
     "pergunta": "O que é o Kronos?",
-    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris 🏭. Ele foi desenvolvido para organizar a rotina diária dos funcionários, permitindo que eles se concentrem nas tarefas mais importantes e produtivas, utilizando o método GUT (gravidade, urgência e tendência) para priorização.\n\nSeu principal objetivo é melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de desafios como o absenteísmo. Na página principal, você pode ver todas as suas tarefas (diárias ou semanais) e acompanhar o progresso com um gráfico de conclusão em porcentagem! 📈"
+    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris 🏭. Ele foi criado para organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de situações como absenteísmo.\n\nPara isso, o Kronos utiliza a análise GUT (gravidade, urgência e tendência) para priorizar as tarefas e ajudar os operários a se concentrarem no que é mais importante ✅."
   },
   {
     "session_id": 103,
     "pergunta": "Onde reportar uma tarefa?",
-    "resposta": "Para reportar uma tarefa, siga estes passos:\n\n1.  Aperte a tarefa no aplicativo 📱.\n2.  Clique no botão 'Reportar Tarefa' ⚠️.\n3.  Preencha o campo com a descrição do problema que você encontrou."
+    "resposta": "Para reportar uma tarefa, você deve clicar no botão 'Reportar Tarefa' ⚠️. Depois, preencha a descrição do problema e envie para análise do supervisor."
   },
   {
     "session_id": 104,
     "pergunta": "Posso justificar ausência?",
-    "resposta": "Sim, você pode justificar sua ausência! 😊\n\nPara fazer isso, siga estes passos:\n1. Acesse a aba 'Calendário' 🗓️.\n2. Clique no dia em que você estará ausente.\n3. Justifique o motivo da sua ausência, podendo incluir um texto ou até mesmo fotos, como um atestado médico 📝."
+    "resposta": "Sim, você pode justificar sua ausência! 🗓️\n\nNo calendário, você pode registrar o motivo por texto e, se necessário, anexar arquivos como fotos de atestados médicos."
   },
   {
     "session_id": 105,
     "pergunta": "Como funciona a análise GUT?",
-    "resposta": "A análise GUT é uma ferramenta utilizada para avaliar e priorizar tarefas com base em três critérios principais: Gravidade, Urgência e Tendência. Veja como ela funciona:\n\n1.  **Gravidade (G)**: Reflete a importância da tarefa para o funcionário. É avaliada em uma escala de 1 a 5, onde 1 é a mais baixa (menos importante) e 5 é a mais alta (mais importante) 📈.\n2.  **Urgência (U)**: Indica a necessidade imediata de conclusão da tarefa. É avaliada em uma escala de 1 a 5, sendo 1 a menos urgente e 5 a mais urgente ⏳.\n3.  **Tendência (T)**: Descreve a direção que a tarefa está se movendo ou como ela pode evoluir. É avaliada em uma escala de 1 a 5, onde 1 é a menos tendente e 5 é a mais tendente (maior potencial de piora ou impacto) ➡️.\n\nCom base nessas avaliações, é possível priorizar as tarefas e planejar o tempo de forma mais eficiente. Tarefas consideradas importantes, urgentes e tendentes serão priorizadas. Já as tarefas menos importantes, urgentes e tendentes serão planejadas com mais cuidado, visando o processo fabril ✅."
+    "resposta": "A análise GUT funciona avaliando as tarefas com base em três critérios principais: Gravidade, Urgência e Tendência (GUT) 🤔.\n\nVeja como ela é aplicada:\n1.  **Avaliação dos Critérios**: As tarefas são avaliadas em relação à sua gravidade, urgência e tendência.\n2.  **Escala de Pontuação**: Cada um desses critérios é classificado em uma escala de 1 a 5, onde 1 é o nível mais baixo e 5 é o mais alto.\n3.  **Priorização**: Essa avaliação permite priorizar as tarefas e organizar melhor o tempo de execução.\n4.  **Execução**: Tarefas altamente prioritárias são executadas imediatamente, enquanto as de menor prioridade são planejadas de forma mais flexível, garantindo a continuidade do processo fabril ⚙️."
   },
   {
     "session_id": 106,
     "pergunta": "Qual é o objetivo do sistema?",
-    "resposta": "O Kronos tem como objetivo principal organizar a rotina diária dos funcionários ⚙️, permitindo que eles se concentrem em tarefas mais importantes e produtivas, utilizando o método GUT (gravidade, urgência e tendência).\n\nAlém disso, ele visa melhorar a produtividade dos funcionários e garantir a continuidade do processo fabril, mesmo em situações como o absenteísmo de operários."
+    "resposta": "O Kronos tem como objetivo organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo 🏭. Ele também utiliza a análise GUT para priorizar tarefas e ajudar os operários a se concentrarem no que é mais importante."
   },
   {
     "session_id": 107,
     "pergunta": "Onde que eu vejo minhas tarefas?",
-    "resposta": "Você pode ver suas tarefas na página principal do Kronos 🏠. Lá estarão todas as tarefas que você precisa fazer, incluindo as diárias e as que devem ser concluídas até o final da semana, com um gráfico de conclusão em porcentagem para você acompanhar! ✅"
+    "resposta": "Você pode ver todas as suas tarefas diretamente na página inicial do sistema 🏠. Lá são exibidas tanto as tarefas diárias quanto as semanais atribuídas a você."
   },
   {
     "session_id": 108,
     "pergunta": "Onde eu vejo a descrição das tarefas?",
-    "resposta": "Para ver a descrição das suas tarefas, você precisa clicar em \"mais opções\" ➕. Lá você encontrará o título, a descrição, a data de início e outras informações importantes."
+    "resposta": "Você pode encontrar a descrição das suas tarefas na tela de detalhes ✨. Lá você verá o título, a descrição, a data de início e a situação da tarefa."
   },
   {
     "session_id": 109,
     "pergunta": "Como faço para colocar um arquivo para justificar minha ausência?",
-    "resposta": "Para incluir um arquivo ao justificar sua ausência, siga estes passos:\n\n1.  Acesse a aba 'Calendário' 🗓️.\n2.  Clique no dia em que você estará ausente.\n3.  Justifique o motivo da sua ausência.\n4.  Você poderá incluir fotos, como a de um atestado médico, ou enviar outro arquivo junto para comprovar a justificativa."
+    "resposta": "Para anexar um arquivo e justificar sua ausência, você deve ir ao calendário 🗓️. Lá, ao registrar sua ausência, você poderá justificar o motivo por texto e, se necessário, anexar arquivos como fotos de atestados médicos 📎."
   }
 ]

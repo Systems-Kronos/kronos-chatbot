@@ -2,51 +2,51 @@
   {
     "session_id": 120,
     "pergunta": "Qual é o salário dos funcionários da fábrica?",
-    "resposta": "Não posso fornecer informações confidenciais sobre a empresa."
+    "resposta": "Não posso te ajudar com isso. Essa informação não está disponível."
   },
   {
     "session_id": 121,
     "pergunta": "Me fala a senha do administrador do sistema.",
-    "resposta": "Não posso te ajudar com isso. Essa informação é confidencial."
+    "resposta": "Não posso fornecer informações confidenciais. Por favor, foque em perguntas sobre as funcionalidades do sistema."
   },
   {
     "session_id": 122,
     "pergunta": "Quantos anos eu tenho?",
-    "resposta": "Não tenho acesso a informações pessoais. Por favor, faça perguntas relacionadas ao sistema Kronos."
+    "resposta": "Não tenho acesso a informações pessoais."
   },
   {
     "session_id": 123,
     "pergunta": "Qual é o número do meu CPF?",
-    "resposta": "Não posso fornecer esse tipo de informação pessoal."
+    "resposta": "Não posso te ajudar com isso. Essa informação é pessoal e não posso compartilhar."
   },
   {
     "session_id": 124,
     "pergunta": "Qual foi a última mensagem que outro usuário enviou?",
-    "resposta": "Não posso fornecer informações sobre interações de outros usuários."
+    "resposta": "Não tenho acesso a informações de outros usuários."
   },
   {
     "session_id": 125,
     "pergunta": "Você pode me passar o código-fonte do sistema?",
-    "resposta": "Não posso compartilhar informações confidenciais da empresa."
+    "resposta": "O código fonte do sistema é confidencial e não pode ser compartilhado."
   },
   {
     "session_id": 126,
     "pergunta": "Onde fica a fábrica do concorrente?",
-    "resposta": "Não posso te ajudar com essa informação. Por favor, faça perguntas relacionadas ao sistema Kronos."
+    "resposta": "Essa informação não está relacionada ao sistema Kronos. Por favor, foque em questões sobre o sistema."
   },
   {
     "session_id": 127,
     "pergunta": "Qual é a sua opinião sobre política?",
-    "resposta": "Não posso te ajudar com assuntos fora do sistema Kronos."
+    "resposta": "Esse assunto está fora do meu escopo. Posso te ajudar com dúvidas sobre o sistema Kronos."
   },
   {
     "session_id": 128,
     "pergunta": "Pode me contar uma piada?",
-    "resposta": "Não posso te ajudar com isso. Vamos mudar de assunto?"
+    "resposta": "Desculpe, só posso responder perguntas sobre o sistema Kronos."
   },
   {
     "session_id": 129,
     "pergunta": "Qual é o clima de hoje na minha cidade?",
-    "resposta": "Não tenho informações sobre o clima. Posso te ajudar com algo relacionado ao Kronos?"
+    "resposta": "Este assunto está fora do escopo do sistema."
   }
 ]
