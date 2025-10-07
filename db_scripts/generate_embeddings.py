@@ -2,6 +2,7 @@ from pymongo import MongoClient
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # Conecta com o Mongo
@@ -11,8 +12,7 @@ docs_collection = database["docs"]
 
 # Conecta o Gemini para embeddings
 embeddings = GoogleGenerativeAIEmbeddings(
-    model="gemini-embedding-001",
-    google_api_key=os.getenv("GEMINI_API_KEY")
+    model="gemini-embedding-001", google_api_key=os.getenv("GEMINI_API_KEY")
 )
 
 # Seleciona os documentos sem embeddings
@@ -24,9 +24,6 @@ for doc in docs:
     vector = embeddings.embed_query(content)
 
     # Atualiza os documentos incluindo o novo campo "embedding"
-    docs_collection.update_one(
-        {"_id": doc["_id"]},
-        {"$set": {"embedding": vector}}
-    )
+    docs_collection.update_one({"_id": doc["_id"]}, {"$set": {"embedding": vector}})
 
 print(f"Embeddings atualizados para {len(docs)} documentos.")

@@ -7,24 +7,22 @@ from langchain_core.prompts import (
     ChatPromptTemplate,
     MessagesPlaceholder,
     HumanMessagePromptTemplate,
-    AIMessagePromptTemplate
+    AIMessagePromptTemplate,
 )
 from langchain.prompts.few_shot import FewShotChatMessagePromptTemplate
 from services.memory_service import get_memory
 
+
 class JudgeOutput(BaseModel):
-    flag: int = Field(
-        description='0 se a entrada for válida, 1 se for ofensiva'
-    )
+    flag: int = Field(description="0 se a entrada for válida, 1 se for ofensiva")
     message: Union[str, None] = Field(
-        description='Resposta ao usuário reestruturada corretamente caso flag=1, ou None se flag=0'
+        description="Resposta ao usuário reestruturada corretamente caso flag=1, ou None se flag=0"
     )
+
 
 # Conecta com o Gemini para geração de respostas
 model = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
-    temperature=0,
-    google_api_key=os.getenv("GEMINI_API_KEY")
+    model="gemini-2.0-flash", temperature=0, google_api_key=os.getenv("GEMINI_API_KEY")
 ).with_structured_output(JudgeOutput)
 
 # Lê o template do prompt
@@ -36,33 +34,46 @@ system_prompt = ("system", system_text)
 with open("agents/prompts/judge/fewshots.json", "r", encoding="utf-8") as x:
     shots = json.load(x)
 
-example_prompt = ChatPromptTemplate.from_messages([
-    HumanMessagePromptTemplate.from_template("{human}"),
-    AIMessagePromptTemplate.from_template("{ai}")
-])
+example_prompt = ChatPromptTemplate.from_messages(
+    [
+        HumanMessagePromptTemplate.from_template("{human}"),
+        AIMessagePromptTemplate.from_template("{ai}"),
+    ]
+)
 
 fewshots = FewShotChatMessagePromptTemplate(
-    examples=shots,
-    example_prompt=example_prompt
+    examples=shots, example_prompt=example_prompt
 )
 
 # Monta prompt final (inclui histórico opcional e query)
-judge_prompt = ChatPromptTemplate.from_messages([
-    system_prompt,
-    fewshots,
-    MessagesPlaceholder("memory"), 
-    ("human",
-     "Contexto:\n{context}\n\nResposta do RAG:\n{rag_output}\n\nPergunta do usuário:\n{query}")
-])
+judge_prompt = ChatPromptTemplate.from_messages(
+    [
+        system_prompt,
+        fewshots,
+        MessagesPlaceholder("memory"),
+        (
+            "human",
+            "Contexto:\n{context}\n\nResposta do RAG:\n{rag_output}\n\nPergunta do usuário:\n{query}",
+        ),
+    ]
+)
 
 # Declara a pipeline
-pipeline = judge_prompt | model 
+pipeline = judge_prompt | model
+
 
 def run_judge_agent(query, rag_output, context, session_id):
     try:
         memory = get_memory(session_id)
 
-        output: JudgeOutput = pipeline.invoke({"query": query, "rag_output": rag_output, "context": context, "memory": memory.messages})
+        output: JudgeOutput = pipeline.invoke(
+            {
+                "query": query,
+                "rag_output": rag_output,
+                "context": context,
+                "memory": memory.messages,
+            }
+        )
 
         if output.flag == 0:
             return True, None
@@ -71,5 +82,5 @@ def run_judge_agent(query, rag_output, context, session_id):
 
     except Exception as e:
         print(f"Erro no juiz: {e}")
-    
+
     return False, "Não foi possível validar a resposta."

@@ -5,14 +5,17 @@ from pipeline import run_pipeline
 
 app = FastAPI()
 
+
 @app.get("/")
 def root():
     return {"message": "API do Chatbot Kronos está online!"}
+
 
 @app.get("/new_session")
 def new_session():
     session_id = str(uuid.uuid4())
     return {"session_id": session_id}
+
 
 @app.get("/chat")
 def chat(query: str | None = None, session_id: str | None = None):
@@ -22,6 +25,7 @@ def chat(query: str | None = None, session_id: str | None = None):
         return {"erro": "O parâmetro 'session_id' é obrigatório."}
     response = run_pipeline(query, session_id)
     return {"resposta": response}
+
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8200, reload=True)
