@@ -1,7 +1,9 @@
 from langchain_mongodb import MongoDBChatMessageHistory
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 def get_memory(session_id):
     return MongoDBChatMessageHistory(
