@@ -1,0 +1,52 @@
+[
+  {
+    "session_id": 130,
+    "pergunta": "Como o Kronos calcula automaticamente a nota final da análise GUT?",
+    "resposta": "Os documentos explicam que a análise GUT avalia as tarefas com base em três critérios: gravidade, urgência e tendência, e que cada um desses critérios é classificado em uma escala de 1 a 5.\n\nNo entanto, não há informações detalhadas sobre como o Kronos calcula automaticamente a nota final da análise GUT a partir dessas classificações individuais 🧐.\n\nPara entender o método de cálculo, sugiro que você consulte seu supervisor ou gestor."
+  },
+  {
+    "session_id": 131,
+    "pergunta": "Onde eu vejo o salário do operário na página de perfil?",
+    "resposta": "Não posso te ajudar com isso, essa informação não está disponível."
+  },
+  {
+    "session_id": 132,
+    "pergunta": "Posso pedir férias pelo calendário do Kronos?",
+    "resposta": "Com base nas informações disponíveis, o calendário do Kronos permite que você marque sua presença ou ausência em cada dia e justifique o motivo de ausências, podendo anexar arquivos como atestados médicos 🗓️.\n\nNão há menção de uma funcionalidade para solicitar férias diretamente pelo calendário nos documentos que consultei 🧐.\n\nPara informações sobre como solicitar suas férias, sugiro que você converse com seu supervisor ou gestor."
+  },
+  {
+    "session_id": 133,
+    "pergunta": "Existe algum botão de 'Concluir Tarefa' na tela de descrição da tarefa?",
+    "resposta": "Não encontrei informações sobre um botão de 'Concluir Tarefa' na tela de detalhes da tarefa nos documentos disponíveis 📂.\n\nOs botões mencionados são:\n1.  **Atualizar** 🔄: Para descrever o progresso.\n2.  **Desatribuir** 🚫: Para desvincular-se da tarefa.\n3.  **Reportar Tarefa** ⚠️: Para informar problemas ao supervisor.\n\nSe precisar de mais detalhes sobre como concluir uma tarefa, sugiro verificar com seu supervisor ou gestor."
+  },
+  {
+    "session_id": 134,
+    "pergunta": "O supervisor consegue editar o e-mail do operário na página de perfil?",
+    "resposta": "Não encontrei nos documentos disponíveis informações que confirmem se o supervisor consegue editar o e-mail do operário na página de perfil 📂. Para confirmar essa informação, sugiro que você consulte seu supervisor ou gestor."
+  },
+  {
+    "session_id": 135,
+    "pergunta": "Qual relatório mostra o absenteísmo por mês no sistema?",
+    "resposta": "Os documentos não detalham um relatório específico que mostre o absenteísmo por mês 📂.\n\nNo entanto, os supervisores têm acesso a relatórios e ferramentas de análise sobre o desempenho dos operários, o que pode incluir dados relacionados à presença. Sugiro que você verifique diretamente com seu supervisor ou gestor para obter essa informação."
+  },
+  {
+    "session_id": 136,
+    "pergunta": "Posso configurar notificações automáticas de pausa no Kronos?",
+    "resposta": "Não encontrei informações sobre a configuração de notificações automáticas de pausa nos documentos disponíveis 📂.\n\nO Kronos disponibiliza pausas para o operário após a conclusão de tarefas com alto nível de gravidade, urgência ou tendência, visando o bem-estar durante o turno. No entanto, não há detalhes sobre como o usuário pode configurar notificações para essas pausas.\n\nSugiro verificar com seu supervisor ou gestor para obter mais informações sobre essa funcionalidade."
+  },
+  {
+    "session_id": 137,
+    "pergunta": "Onde encontro a opção de excluir definitivamente uma tarefa?",
+    "resposta": "Não encontrei informações sobre a opção de excluir definitivamente uma tarefa nos dados disponíveis 📂. Sugiro que você procure seu supervisor ou gestor para obter mais detalhes sobre essa funcionalidade."
+  },
+  {
+    "session_id": 138,
+    "pergunta": "Como funciona a inteligência artificial do Kronos para reatribuir tarefas?",
+    "resposta": "Quando um operário não está disponível para realizar uma tarefa, o Kronos automaticamente realoca essa tarefa para outro colaborador que seja apto a executá-la 🔄. Essa realocação considera a disponibilidade, o setor, as habilidades e as prioridades do novo operário."
+  },
+  {
+    "session_id": 139,
+    "pergunta": "O Kronos mostra métricas financeiras da fábrica junto com as tarefas?",
+    "resposta": "Não encontrei informações nos documentos disponíveis que indiquem que o Kronos mostra métricas financeiras da fábrica 📊. O sistema é focado no gerenciamento de tarefas fabris, na organização da rotina dos funcionários, na melhoria da produtividade e no acompanhamento do desempenho dos operários.\n\nPara obter informações sobre métricas financeiras, sugiro que você procure seu supervisor ou gestor."
+  }
+]
