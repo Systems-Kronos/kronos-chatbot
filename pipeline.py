@@ -1,8 +1,7 @@
-import uuid
 from langchain_mongodb import MongoDBChatMessageHistory
 from agents.guardrail_agent import run_guardrail_agent
 from agents.judge_agent import run_judge_agent
-from agents.rag_agent import run_rag_agent
+from agents.writer_agent import run_writer_agent
 import os
 from dotenv import load_dotenv
 
@@ -30,16 +29,16 @@ def run_pipeline(query, session_id):
 
     # Etapa 2 - Geração da resposta com RAG
     # Recupera contexto e gera resposta
-    rag_output, rag_context = run_rag_agent(query, session_id)
+    writer_output, writer_context = run_writer_agent(query, session_id)
 
     # Etapa 3 - Validação da resposta com o juiz
     # Se o juiz aprova, a resposta original é enviada. Se rejeita, retorna a resposta ajustada
     judge_is_valid, judge_output = run_judge_agent(
-        query, rag_output, rag_context, session_id
+        query, writer_output, writer_context, session_id
     )
     if judge_is_valid:
-        chat_message_history.add_ai_message(rag_output)
-        return rag_output
+        chat_message_history.add_ai_message(writer_output)
+        return writer_output
     else:
         chat_message_history.add_ai_message(judge_output)
         return judge_output

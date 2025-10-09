@@ -18,12 +18,12 @@ model = ChatGoogleGenerativeAI(
 )
 
 # Lê o template do prompt
-with open("agents/prompts/rag/system_prompt.txt", "r", encoding="utf-8") as x:
+with open("agents/prompts/writer/system_prompt.txt", "r", encoding="utf-8") as x:
     system_text = x.read()
 system_prompt = ("system", system_text)
 
 # Lê exemplos few-shot
-with open("agents/prompts/rag/fewshots.json", "r", encoding="utf-8") as x:
+with open("agents/prompts/writer/fewshots.json", "r", encoding="utf-8") as x:
     shots = json.load(x)
 
 example_prompt = ChatPromptTemplate.from_messages(
@@ -38,7 +38,7 @@ fewshots = FewShotChatMessagePromptTemplate(
 )
 
 # Monta prompt final (inclui histórico opcional e query)
-rag_prompt = ChatPromptTemplate.from_messages(
+writer_prompt = ChatPromptTemplate.from_messages(
     [
         system_prompt,
         fewshots,
@@ -48,9 +48,9 @@ rag_prompt = ChatPromptTemplate.from_messages(
 )
 
 
-def run_rag_agent(query, session_id):
+def run_writer_agent(query, session_id):
     try:
-        # Recupera contexto do RAG
+        # Recupera contexto do writer
         context = retrieve_similar_docs(query)
 
     except Exception as e:
@@ -64,7 +64,7 @@ def run_rag_agent(query, session_id):
         memory = get_memory(session_id)
 
         output = model.invoke(
-            rag_prompt.format(context=context, query=query, memory=memory.messages)
+            writer_prompt.format(context=context, query=query, memory=memory.messages)
         )
 
         return output.content, context

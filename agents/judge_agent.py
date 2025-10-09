@@ -2,7 +2,6 @@ import os, json
 from typing import Union
 from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import (
     ChatPromptTemplate,
     MessagesPlaceholder,
@@ -53,7 +52,7 @@ judge_prompt = ChatPromptTemplate.from_messages(
         MessagesPlaceholder("memory"),
         (
             "human",
-            "Contexto:\n{context}\n\nResposta do RAG:\n{rag_output}\n\nPergunta do usuário:\n{query}",
+            "Contexto:\n{context}\n\nResposta do Writer:\n{writer_output}\n\nPergunta do usuário:\n{query}",
         ),
     ]
 )
@@ -62,14 +61,14 @@ judge_prompt = ChatPromptTemplate.from_messages(
 pipeline = judge_prompt | model
 
 
-def run_judge_agent(query, rag_output, context, session_id):
+def run_judge_agent(query, writer_output, context, session_id):
     try:
         memory = get_memory(session_id)
 
         output: JudgeOutput = pipeline.invoke(
             {
                 "query": query,
-                "rag_output": rag_output,
+                "writer_output": writer_output,
                 "context": context,
                 "memory": memory.messages,
             }
