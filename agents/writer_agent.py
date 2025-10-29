@@ -42,8 +42,7 @@ writer_prompt = ChatPromptTemplate.from_messages(
     [
         system_prompt,
         fewshots,
-        MessagesPlaceholder("memory"),
-        ("human", "Contexto:\n{context}\n\nPergunta:\n{query}"),
+        ("human", "Contexto:\n{context}\n\nPergunta do usuário:\n{query}"),
     ]
 )
 

@@ -51,7 +51,6 @@ guardrail_prompt = ChatPromptTemplate.from_messages(
     [
         system_prompt,
         fewshots,
-        MessagesPlaceholder("memory"),
         ("human", "{query}"),
     ]
 )

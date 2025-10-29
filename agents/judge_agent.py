@@ -49,10 +49,9 @@ judge_prompt = ChatPromptTemplate.from_messages(
     [
         system_prompt,
         fewshots,
-        MessagesPlaceholder("memory"),
         (
             "human",
-            "Contexto:\n{context}\n\nResposta do Writer:\n{writer_output}\n\nPergunta do usuário:\n{query}",
+            "Contexto:\n{context}\n\nResposta do Assistente:\n{writer_output}\n\nPergunta do usuário:\n{query}",
         ),
     ]
 )
