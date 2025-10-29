@@ -12,8 +12,10 @@ def root():
 
 
 @app.get("/new_session")
-def new_session():
-    session_id = str(uuid.uuid4())
+def new_session(user_id: str | None = None):
+    if not user_id:
+        return {"erro": "O parâmetro 'user_id' é obrigatório."}
+    session_id = f"{user_id}::{uuid.uuid4()}"
     return {"session_id": session_id}
 
 
