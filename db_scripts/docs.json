@@ -1,82 +1,67 @@
 [
     {
-      "title": "Introdução ao Kronos",
-      "section": "Introdução",
-      "content": "O Kronos é um sistema de gerenciamento de tarefas fabris que tem como objetivo organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo. Ele utiliza a análise GUT (gravidade, urgência e tendência) para priorizar tarefas e ajudar os operários a se concentrarem no que é mais importante."
+        "title": "Introdução ao Kronos",
+        "section": "Introdução",
+        "content": "O Kronos é um sistema de gerenciamento de tarefas fabris que tem como objetivo organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo. Ele utiliza a análise GUT (gravidade, urgência e tendência) para priorizar tarefas e ajudar os funcionários a se concentrarem no que é mais importante."
     },
     {
-      "title": "Panorama do Supervisor",
-      "section": "Introdução",
-      "content": "Supervisores têm acesso ao desempenho dos operários sob seu comando, com gráficos detalhados, relatórios e ferramentas de análise. Eles podem visualizar todas as tarefas atribuídas, concluídas, pendentes e reatribuídas."
+        "title": "Panorama do Gestor",
+        "section": "Introdução",
+        "content": "Gestores têm acesso ao desempenho dos funcionários sob seu comando, com gráficos detalhados, relatórios e ferramentas de análise. Eles podem visualizar todas as tarefas atribuídas, concluídas, pendentes e reatribuídas."
     },
     {
-      "title": "Panorama do Operário",
-      "section": "Introdução",
-      "content": "Operários têm acesso apenas às tarefas atribuídas a eles, com informações sobre progresso, prazos e prioridades. Além disso, contam com um chatbot integrado que auxilia na execução das tarefas, tirando dúvidas e fornecendo orientações."
+        "title": "Panorama do Funcionário",
+        "section": "Introdução",
+        "content": "Funcionários têm acesso apenas às tarefas atribuídas a eles, com informações sobre progresso, prazos e prioridades. Além disso, o aplicativo conta com um chatbot integrado que auxilia na utilização, esclarecendo dúvidas e fornecendo orientações."
     },
     {
-      "title": "Análise GUT",
-      "section": "Tarefas",
-      "content": "A análise GUT avalia tarefas com base em três critérios: gravidade, urgência e tendência. Cada critério é classificado em uma escala de 1 a 5, sendo 1 o nível mais baixo e 5 o mais alto. Essa avaliação permite priorizar tarefas e organizar melhor o tempo de execução."
+        "title": "Análise GUT",
+        "section": "Tarefas",
+        "content": "A análise GUT avalia tarefas com base em três critérios: gravidade, urgência e tendência. Cada critério é classificado em uma escala de 1 a 5, sendo 1 o nível mais baixo e 5 o mais alto. Essa avaliação permite priorizar tarefas e organizar melhor o tempo de execução."
     },
     {
-      "title": "Avaliação da Tarefa",
-      "section": "Tarefas",
-      "content": "Após a análise GUT, as tarefas são avaliadas de acordo com sua importância, urgência e tendência. Tarefas altamente prioritárias são executadas imediatamente, enquanto as de menor prioridade são planejadas de forma mais flexível, garantindo continuidade do processo fabril."
+        "title": "Prioridade da Tarefa",
+        "section": "Tarefas",
+        "content": "Tarefas altamente prioritárias são executadas imediatamente, enquanto as de menor prioridade são planejadas de forma mais flexível, garantindo a continuidade do processo fabril."
     },
     {
-      "title": "Alocação e Realocação de Tarefas",
-      "section": "Tarefas",
-      "content": "As tarefas são alocadas a operários considerando disponibilidade, setor, habilidades e prioridades. Caso o operário não esteja disponível, a tarefa é automaticamente realocada para outro colaborador apto."
+        "title": "Alocação e Realocação de Tarefas",
+        "section": "Tarefas",
+        "content": "As tarefas são alocadas a funcionários considerando disponibilidade, setor, habilidades e prioridades. Caso o funcionário não esteja disponível, a tarefa é automaticamente realocada para outro colaborador apto. Também é possível visualizar o histórico de reatribuições clicando no ícone localizado no canto superior direito de cada tarefa."
     },
     {
-      "title": "Descrição da Tarefa",
-      "section": "Tarefas",
-      "content": "Na tela de detalhes, o operário encontra título, descrição, data de início, situação, contatos adicionais e o relator da tarefa. Também há botões para 'Desatribuir' e 'Atualizar', além de ícones para abrir relatórios e histórico de reatribuições."
+        "title": "Atualizar Tarefa",
+        "section": "Tarefas",
+        "content": "Há um botão 'Atualizar' em cada tarefa, que permite finalizá-la ou registrar o que foi realizado no dia."
     },
     {
-      "title": "Atualizar Tarefa",
-      "section": "Tarefas",
-      "content": "O operário pode atualizar a tarefa clicando no botão 'Atualizar' e descrevendo o progresso realizado até o momento."
+        "title": "Reportar Tarefa",
+        "section": "Tarefas",
+        "content": "Caso surja algum problema, o funcionário pode clicar em um ícone de atenção para reportar tarefas, utilizado quando a atividade não pertence ao colaborador, não é compreendida ou há qualquer tipo de impedimento em sua execução. Dessa forma, a tarefa é reportada e enviada para análise do gestor."
     },
     {
-      "title": "Desatribuir Tarefa",
-      "section": "Tarefas",
-      "content": "Se o operário desejar desatribuir uma tarefa, deve clicar no botão 'Desatribuir' e justificar o motivo. O supervisor analisará a solicitação antes da realocação."
+        "title": "Calendário",
+        "section": "Calendário",
+        "content": "No calendário, o funcionário marca sua presença ou ausência em cada dia. Caso esteja ausente, pode justificar o motivo por texto e, se necessário, anexar arquivos, como fotos de atestados médicos."
     },
     {
-      "title": "Reportar Tarefa",
-      "section": "Tarefas",
-      "content": "Caso surja algum problema, o operário pode clicar em 'Reportar Tarefa', preencher a descrição do problema e enviar para análise do supervisor."
+        "title": "Página Inicial",
+        "section": "Funcionário",
+        "content": "A página inicial exibe todas as tarefas atribuídas ao funcionário, sejam elas originais ou realocadas. No topo, há um gráfico em porcentagem que mostra o progresso de conclusão das tarefas."
     },
     {
-      "title": "Pausas",
-      "section": "Tarefas",
-      "content": "Após concluir tarefas com alto nível de gravidade, urgência ou tendência, o sistema disponibiliza pequenas pausas para o operário descansar, tomar água ou alongar-se, garantindo bem-estar durante o turno."
+        "title": "Perfil do Funcionário",
+        "section": "Funcionário",
+        "content": "A página de perfil contém informações pessoais do funcionário, como nome, cargo, e-mail e foto de perfil. Também apresenta o histórico de tarefas concluídas e um contador de produtividade."
     },
     {
-      "title": "Calendário",
-      "section": "Calendário",
-      "content": "No calendário, o operário marca sua presença ou ausência em cada dia. Caso esteja ausente, pode justificar o motivo por texto e, se necessário, anexar arquivos como fotos de atestados médicos."
+        "title": "Navegação",
+        "section": "Jornada do Usuário",
+        "content": "Na parte inferior da tela, há uma barra de navegação com os ícones: 'Início', 'Calendário', 'Chatbot' e 'Perfil'."
     },
     {
-      "title": "Página Inicial",
-      "section": "Operário",
-      "content": "A página inicial exibe todas as tarefas atribuídas ao operário, sejam elas diárias ou semanais. No topo, há um gráfico em porcentagem que mostra o progresso de conclusão das tarefas."
-    },
-    {
-      "title": "Perfil do Operário",
-      "section": "Operário",
-      "content": "A página de perfil contém informações pessoais do operário, como nome, cargo, setor, e-mail, telefone e foto de perfil. Também apresenta o histórico de tarefas concluídas e um contador de produtividade."
-    },
-    {
-      "title": "Navegação",
-      "section": "Jornada do Usuário",
-      "content": "Na parte inferior da tela, há uma barra de navegação com os ícones: 'Início', 'Calendário', 'Chatbot' e 'Perfil'."
-    },
-    {
-      "title": "Chatbot",
-      "section": "Jornada do Usuário",
-      "content": "O chatbot é acessado pelo ícone na barra de navegação. Ele funciona como um assistente virtual para responder dúvidas e fornecer informações sobre o sistema e as tarefas."
+        "title": "Chatbot",
+        "section": "Jornada do Usuário",
+        "content": "O chatbot é acessado pelo ícone na barra de navegação. Ele funciona como um assistente virtual para responder dúvidas e fornecer informações sobre o sistema e as tarefas."
     }
 ]
