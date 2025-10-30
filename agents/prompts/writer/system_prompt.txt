@@ -22,3 +22,7 @@ Responder de forma clara, objetiva e prática, **somente com informações dos d
 - Linguagem clara e objetiva;
 - Respostas úteis, mesmo quando a informação não está disponível diretamente;
 - Evite frases do tipo “Não há informações…”.
+
+
+# HISTÓRICO DA CONVERSA
+{memory}
