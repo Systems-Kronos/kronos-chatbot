@@ -1,52 +1,52 @@
 [
   {
-    "session_id": 100,
+    "session_id": 1,
     "pergunta": "Oie! Como funciona a redistribuição de tarefas?",
-    "resposta": "Oie! A redistribuição de tarefas no Kronos funciona de duas maneiras principais:\n\n1.  **Automática**: Se um operário não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto, considerando a disponibilidade, setor, habilidades e prioridades. 🔄\n2.  **Por solicitação do operário**: Se você precisar desatribuir uma tarefa, deve clicar no botão 'Desatribuir' e justificar o motivo. Um supervisor irá analisar sua solicitação antes que a tarefa seja realocada. ✅\n\nEspero que ajude! 😊"
+    "resposta": "Oi! A redistribuição de tarefas funciona da seguinte forma:\n\n1.  As tarefas são inicialmente alocadas considerando a disponibilidade, setor, habilidades e prioridades do funcionário.\n2.  Se um funcionário não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto a realizá-la.\n3.  Você pode ver o histórico de reatribuições de uma tarefa clicando no ícone no canto superior direito dela 🔄."
   },
   {
-    "session_id": 101,
+    "session_id": 2,
     "pergunta": "Posso desatribuir uma tarefa?",
-    "resposta": "Sim, você pode desatribuir uma tarefa! 😊\n\nPara fazer isso, siga estes passos:\n1.  Vá até a tela de detalhes da tarefa, onde você encontrará o botão 'Desatribuir'.\n2.  Clique no botão 'Desatribuir' 🗑️.\n3.  Justifique o motivo da desatribuição.\n\nApós sua solicitação, o supervisor analisará o pedido antes que a tarefa seja realocada."
+    "resposta": "Você pode reportar uma tarefa caso ela não pertença a você, não seja compreendida ou haja algum impedimento para sua execução. Para isso, clique no ícone de atenção ⚠️. A tarefa será enviada para análise do seu gestor."
   },
   {
-    "session_id": 102,
+    "session_id": 3,
     "pergunta": "O que é o Kronos?",
-    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris 🏭. Ele foi criado para organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de situações como absenteísmo.\n\nPara isso, o Kronos utiliza a análise GUT (gravidade, urgência e tendência) para priorizar as tarefas e ajudar os operários a se concentrarem no que é mais importante ✅."
+    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris que organiza a rotina diária dos funcionários, melhora a produtividade e garante a continuidade do processo fabril 🏭. Ele utiliza a análise GUT para priorizar as tarefas."
   },
   {
-    "session_id": 103,
+    "session_id": 4,
     "pergunta": "Onde reportar uma tarefa?",
-    "resposta": "Para reportar uma tarefa, você deve clicar no botão 'Reportar Tarefa' ⚠️. Depois, preencha a descrição do problema e envie para análise do supervisor."
+    "resposta": "Para reportar uma tarefa, você pode clicar em um ícone de atenção ⚠️. Isso é útil quando a atividade não pertence a você, não é compreendida ou há algum impedimento para sua execução. A tarefa será então enviada para análise do gestor."
   },
   {
-    "session_id": 104,
+    "session_id": 5,
     "pergunta": "Posso justificar ausência?",
-    "resposta": "Sim, você pode justificar sua ausência! 🗓️\n\nNo calendário, você pode registrar o motivo por texto e, se necessário, anexar arquivos como fotos de atestados médicos."
+    "resposta": "Sim, você pode justificar sua ausência 🗓️. No calendário, caso esteja ausente, você pode justificar o motivo por texto e, se necessário, anexar arquivos como atestados médicos."
   },
   {
-    "session_id": 105,
+    "session_id": 6,
     "pergunta": "Como funciona a análise GUT?",
-    "resposta": "A análise GUT funciona avaliando as tarefas com base em três critérios principais: Gravidade, Urgência e Tendência (GUT) 🤔.\n\nVeja como ela é aplicada:\n1.  **Avaliação dos Critérios**: As tarefas são avaliadas em relação à sua gravidade, urgência e tendência.\n2.  **Escala de Pontuação**: Cada um desses critérios é classificado em uma escala de 1 a 5, onde 1 é o nível mais baixo e 5 é o mais alto.\n3.  **Priorização**: Essa avaliação permite priorizar as tarefas e organizar melhor o tempo de execução.\n4.  **Execução**: Tarefas altamente prioritárias são executadas imediatamente, enquanto as de menor prioridade são planejadas de forma mais flexível, garantindo a continuidade do processo fabril ⚙️."
+    "resposta": "A análise GUT funciona avaliando as tarefas com base em três critérios: gravidade, urgência e tendência 📊.\n\nCada um desses critérios é classificado em uma escala de 1 a 5, onde 1 é o nível mais baixo e 5 é o mais alto. Essa avaliação ajuda a priorizar as tarefas e a organizar melhor o tempo de execução, focando no que é mais importante."
   },
   {
-    "session_id": 106,
+    "session_id": 7,
     "pergunta": "Qual é o objetivo do sistema?",
-    "resposta": "O Kronos tem como objetivo organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo 🏭. Ele também utiliza a análise GUT para priorizar tarefas e ajudar os operários a se concentrarem no que é mais importante."
+    "resposta": "O objetivo do sistema Kronos é organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo 🏭."
   },
   {
-    "session_id": 107,
+    "session_id": 8,
     "pergunta": "Onde que eu vejo minhas tarefas?",
-    "resposta": "Você pode ver todas as suas tarefas diretamente na página inicial do sistema 🏠. Lá são exibidas tanto as tarefas diárias quanto as semanais atribuídas a você."
+    "resposta": "Você pode ver todas as suas tarefas atribuídas, tanto as originais quanto as realocadas, diretamente na página inicial 🏠. Lá você também encontra um gráfico que mostra o progresso de conclusão das suas tarefas."
   },
   {
-    "session_id": 108,
+    "session_id": 9,
     "pergunta": "Onde eu vejo a descrição das tarefas?",
-    "resposta": "Você pode encontrar a descrição das suas tarefas na tela de detalhes ✨. Lá você verá o título, a descrição, a data de início e a situação da tarefa."
+    "resposta": "A página inicial exibe todas as tarefas atribuídas a você 📋. Para encontrar a descrição detalhada, sugiro verificar os detalhes de cada tarefa por lá. Caso não encontre, você pode consultar seu supervisor para obter essa informação."
   },
   {
-    "session_id": 109,
+    "session_id": 10,
     "pergunta": "Como faço para colocar um arquivo para justificar minha ausência?",
-    "resposta": "Para anexar um arquivo e justificar sua ausência, você deve ir ao calendário 🗓️. Lá, ao registrar sua ausência, você poderá justificar o motivo por texto e, se necessário, anexar arquivos como fotos de atestados médicos 📎."
+    "resposta": "Para anexar um arquivo e justificar sua ausência, você deve ir ao 'Calendário' 🗓️. Lá, ao marcar sua ausência, você poderá justificar o motivo por texto e, se necessário, anexar arquivos, como fotos de atestados médicos."
   }
 ]

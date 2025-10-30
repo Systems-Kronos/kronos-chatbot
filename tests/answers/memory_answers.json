@@ -1,77 +1,77 @@
 [
   {
-    "session_id": 200,
+    "session_id": 31,
     "pergunta": "O que é o Kronos?",
-    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris 🏭. Ele tem como objetivo organizar a rotina diária dos funcionários, melhorar a produtividade e garantir a continuidade do processo fabril, mesmo diante de problemas como absenteísmo.\n\nAlém disso, ele utiliza a análise GUT (gravidade, urgência e tendência) para priorizar as tarefas, ajudando os operários a se concentrarem no que é mais importante! ✨"
+    "resposta": "O Kronos é um sistema de gerenciamento de tarefas fabris 🏭. Ele organiza a rotina diária dos funcionários, melhora a produtividade e garante a continuidade do processo fabril, mesmo com absenteísmo. Para isso, utiliza a análise GUT (gravidade, urgência e tendência) para priorizar as tarefas mais importantes."
   },
   {
-    "session_id": 200,
+    "session_id": 31,
     "pergunta": "E ele também controla as finanças da fábrica?",
-    "resposta": "O sistema Kronos é focado no gerenciamento de tarefas fabris, na organização da rotina dos funcionários, na melhoria da produtividade e na garantia da continuidade do processo. Não há informações nos documentos disponíveis sobre o controle das finanças da fábrica 📂. Para confirmar essa informação, você pode consultar seu supervisor ou gestor."
+    "resposta": "O Kronos foca no gerenciamento de tarefas fabris, organização da rotina diária dos funcionários e melhoria da produtividade, utilizando a análise GUT para priorizar as atividades.\n\nPara informações sobre o controle financeiro da fábrica, sugiro que você verifique com seu supervisor ou a equipe responsável por essa área."
   },
   {
-    "session_id": 200,
+    "session_id": 31,
     "pergunta": "Você pode me lembrar qual é o objetivo principal dele?",
-    "resposta": "O objetivo principal do chatbot é funcionar como um assistente virtual para responder suas dúvidas e fornecer informações sobre o sistema e as tarefas 💬. Você pode acessá-lo clicando no ícone na barra de navegação."
+    "resposta": "O objetivo principal do Kronos é ser um sistema de gerenciamento de tarefas fabris 🏭. Ele organiza a rotina diária dos funcionários, melhora a produtividade e garante a continuidade do processo fabril."
   },
   {
-    "session_id": 201,
+    "session_id": 32,
     "pergunta": "Como funciona a análise GUT?",
-    "resposta": "A análise GUT (Gravidade, Urgência e Tendência) é uma ferramenta utilizada para avaliar e priorizar tarefas, ajudando a organizar o tempo de execução e garantir a continuidade do processo fabril 📊.\n\nVeja como ela funciona:\n1.  **Critérios de Avaliação**: As tarefas são avaliadas com base em três critérios principais:\n    *   **Gravidade**: O impacto do problema ou tarefa.\n    *   **Urgência**: A necessidade de ação imediata.\n    *   **Tendência**: A probabilidade de o problema piorar se não for resolvido.\n2.  **Escala de Pontuação**: Cada um desses critérios é classificado em uma escala de 1 a 5, onde 1 é o nível mais baixo e 5 é o nível mais alto.\n3.  **Priorização**: Essa avaliação permite priorizar as tarefas. As tarefas consideradas altamente prioritárias são executadas imediatamente, enquanto as de menor prioridade são planejadas de forma mais flexível.\n\nO objetivo é ajudar os operários a se concentrarem no que é mais importante, melhorando a produtividade e a organização da rotina diária! ✅"
+    "resposta": "A análise GUT funciona avaliando as tarefas com base em três critérios: gravidade, urgência e tendência 📊.\n\nCada um desses critérios é classificado em uma escala de 1 a 5, onde 1 é o nível mais baixo e 5 é o mais alto. Essa avaliação ajuda a priorizar as tarefas e a organizar melhor o tempo de execução."
   },
   {
-    "session_id": 201,
-    "pergunta": "E qual dos três critérios indica a urgência da tarefa?",
-    "resposta": "O critério que indica a urgência da tarefa é a **Urgência** ⏰.\n\nNa análise GUT, cada tarefa é avaliada por sua gravidade, urgência e tendência, recebendo uma pontuação de 1 a 5 para cada um desses aspectos."
+    "session_id": 32,
+    "pergunta": "Não entendi muito bem, pode me explicar melhor?",
+    "resposta": "A análise GUT avalia tarefas com base em **Gravidade**, **Urgência** e **Tendência**. 📊\n\nCada critério é classificado de 1 (baixo) a 5 (alto), ajudando a priorizar e organizar o tempo de execução. 😉\n\nSe ainda tiver dúvidas, posso te ajudar com exemplos práticos!"
   },
   {
-    "session_id": 201,
+    "session_id": 32,
     "pergunta": "Então se for muito urgente, a nota é mais alta, certo?",
-    "resposta": "Isso mesmo! ✅\n\nSe uma tarefa for muito urgente, ela receberá uma nota mais alta na escala de 1 a 5, sendo 5 o nível mais alto. Isso ajuda a identificar as tarefas que precisam de atenção imediata."
+    "resposta": "Exatamente! ✅ Na análise GUT, se uma tarefa é muito urgente, ela receberá uma nota mais alta, próxima de 5, que indica o nível mais alto de urgência."
   },
   {
-    "session_id": 202,
+    "session_id": 33,
     "pergunta": "Onde eu vejo minhas tarefas?",
-    "resposta": "Você pode ver todas as suas tarefas na página inicial do sistema 🏠. Lá são exibidas tanto as tarefas diárias quanto as semanais atribuídas a você. No topo, você também encontrará um gráfico que mostra o seu progresso de conclusão!"
+    "resposta": "Você pode ver todas as suas tarefas atribuídas, sejam elas originais ou realocadas, na página inicial 🏠. Lá, você também encontrará um gráfico que mostra o progresso de conclusão das suas tarefas."
   },
   {
-    "session_id": 202,
+    "session_id": 33,
     "pergunta": "E nessa mesma tela eu consigo atualizar uma tarefa?",
-    "resposta": "Não, para atualizar uma tarefa, você precisará ir para a tela de detalhes dela 📝. O botão 'Atualizar' está disponível nessa tela para que você possa registrar o progresso."
+    "resposta": "Sim, você consegue atualizar uma tarefa na mesma tela onde as visualiza. Em cada tarefa, há um botão 'Atualizar' que permite finalizá-la ou registrar o que foi realizado no dia ✅."
   },
   {
-    "session_id": 202,
-    "pergunta": "Quais botões ficam disponíveis quando eu abro a descrição da tarefa?",
-    "resposta": "Quando você abre a descrição da tarefa na tela de detalhes, você encontrará os seguintes botões:\n\n*   **Desatribuir** 🚫\n*   **Atualizar** ✅\n\nAlém disso, também há ícones para acessar relatórios 📊 e o histórico de reatribuições 🔄 da tarefa."
+    "session_id": 33,
+    "pergunta": "O que mais dá para fazer?",
+    "resposta": "Além de atualizar suas tarefas para finalizar ou registrar o que foi realizado no dia, para explorar outras funcionalidades e ações disponíveis no sistema, sugiro que você consulte o manual do Kronos ou converse com seu supervisor 🧑‍💻."
   },
   {
-    "session_id": 203,
-    "pergunta": "Posso justificar ausência?",
-    "resposta": "Sim, você pode justificar sua ausência! 😊\n\nNo calendário, você pode marcar sua ausência e, em seguida, justificar o motivo por texto. Se precisar, também pode anexar arquivos, como fotos de atestados médicos 🗓️."
+    "session_id": 34,
+    "pergunta": "Posso justificar uma ausência?",
+    "resposta": "Sim, você pode justificar sua ausência 🗓️. No calendário, caso esteja ausente, você pode informar o motivo por texto e, se necessário, anexar arquivos, como fotos de atestados médicos."
   },
   {
-    "session_id": 203,
+    "session_id": 34,
     "pergunta": "E consigo anexar um atestado junto?",
-    "resposta": "Sim, você consegue anexar um atestado! 😊\n\nAo justificar sua ausência no calendário, você pode anexar arquivos, como fotos de atestados médicos 📎, para complementar a justificativa."
+    "resposta": "Sim, você consegue anexar arquivos, como fotos de atestados médicos, ao justificar sua ausência no calendário 🗓️."
   },
   {
-    "session_id": 203,
-    "pergunta": "Esse processo é feito no calendário, não é?",
-    "resposta": "Isso mesmo! ✅ O processo de justificar sua ausência é feito diretamente no calendário 🗓️.\n\nLá você pode marcar sua ausência e adicionar a justificativa por texto, além de anexar arquivos como fotos de atestados médicos, se precisar."
+    "session_id": 34,
+    "pergunta": "Esse processo é feito em qual aba? Não estou achando.",
+    "resposta": "Para justificar sua ausência, acesse a aba 'Calendário' 🗓️. Lá, você pode informar o motivo e anexar documentos, como atestados médicos. 😉"
   },
   {
-    "session_id": 204,
+    "session_id": 35,
     "pergunta": "Como funciona a redistribuição de tarefas?",
-    "resposta": "A redistribuição de tarefas no Kronos pode ocorrer de duas formas principais:\n\n1.  **Automática**: Se o operário originalmente designado não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto a realizá-la. 🔄\n2.  **Por solicitação do operário**: Se você precisar desatribuir uma tarefa, deve clicar no botão 'Desatribuir' e justificar o motivo. Um supervisor analisará sua solicitação antes que a tarefa seja realocada para outra pessoa. ✅"
+    "resposta": "A redistribuição de tarefas ocorre automaticamente quando um funcionário não está disponível 🔄. A tarefa é realocada para outro colaborador que seja apto para executá-la, considerando fatores como setor, habilidades e prioridades.\n\nVocê também pode visualizar o histórico de reatribuições de uma tarefa clicando no ícone localizado no canto superior direito dela."
   },
   {
-    "session_id": 204,
-    "pergunta": "E se o operário não estiver disponível, o que acontece?",
-    "resposta": "Se um operário não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto a realizá-la 🔄."
+    "session_id": 35,
+    "pergunta": "E se o funcionário não estiver disponível, o que acontece?",
+    "resposta": "Se o funcionário não estiver disponível, a tarefa é automaticamente realocada para outro colaborador que seja apto para executá-la ✅."
   },
   {
-    "session_id": 204,
+    "session_id": 35,
     "pergunta": "Então é o mesmo que a realocação de tarefas, certo?",
-    "resposta": "Sim, é o mesmo conceito! 😊\n\nQuando uma tarefa precisa ser atribuída a um operário diferente, seja porque o original não está disponível ou por uma solicitação de desatribuição, esse processo é chamado de **realocação** ou **redistribuição** de tarefas. Ambas as palavras se referem a essa movimentação da tarefa para outro colaborador apto a realizá-la. 🔄"
+    "resposta": "Sim, a redistribuição de tarefas é o mesmo que a realocação de tarefas ✅. Ambas se referem ao processo em que uma tarefa é movida para outro colaborador apto, especialmente quando o funcionário original não está disponível."
   }
 ]
